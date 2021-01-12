@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Quando', serif;
+}
+
+h2 {
+    color: #312E81;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 0.03rem;
+    margin-bottom: 1.5rem;
+}
+
+#birthday {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px solid #3730A3;
+    color: #3730A3;
+    border-radius: 0.2rem;
+}
+
+#btn-check {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 0.03rem;
+    text-align: center;
+    
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+
+    background-color: #EEF2FF; 
+    color: #312E81;
+    border: 2px solid #3730A3;
+    border-radius: 0.2rem;
+}
+
+
+  
+#btn-check:hover {
+    background-color: #3730A3;
+    color: #EEF2FF;
+    border-radius: 0.2rem;
+}
+
+#loading-gif {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+#output-gif {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+#output {  
+    display: block;
+    font-size: 1.3rem;
+    font-family: inherit;
+}
+
+
+/* container */
+
+.container {
+    padding: 0rem 1rem;
+    padding-bottom: 1rem;
+}
+
+.container-center {
+    max-width: 320px;
+    margin: auto;
+    border: 2px solid #312E81;
+    border-radius: 0.5rem;
+}
